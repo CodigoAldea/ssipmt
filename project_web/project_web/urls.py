@@ -1,5 +1,5 @@
 """
-URL configuration for webdev project.
+URL configuration for project_web project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/6.0/topics/http/urls/
@@ -18,6 +18,13 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('back/', admin.site.urls),
-    path('', include('appdev.urls')),
+    path('admin/', admin.site.urls),
+    path('', include('appOne.urls')),
 ]
+
+
+# TO HANDLE THE UPLOAD FILE
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

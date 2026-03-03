@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyProject</title>
+</head>
+<body>
+    <h1> This is the HTML page </h1>
+
+    <h1> User Input Form </h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <!-- 3 : name, mobile , email -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="var_name"><br><br>
+
+        <label for="mobile">Mobile:</label>
+        <input type="text" id="mobile" name="mobile"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- this is html comment  -->
+        {% comment %} image / file {% endcomment %}
+            <label for="file">Upload File:</label>
+            <input type="file" id="file" name="file"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1> User Data </h1>
+    {% for user in data %}
+        <h3> Name: {{user.name}}, Mobile: {{user.mobile}}, Email: {{user.email}}</h3> 
+        {% if user.file %}
+            img : 
+            <img src="{{user.file.url}}" alt="">
+        {% endif %}
+        <br>
+    {% endfor %}
+
+</body>
+</html>
