@@ -16,6 +16,7 @@ first commit msg : "March_six_2026 : first test on git, github and django, simpl
 
 7. For every changes made in the project there should be a commit with comit msg related to the changes that you've done.
 
+
 Time for test : 90min
 
 
