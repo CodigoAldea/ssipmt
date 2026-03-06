@@ -1,4 +1,4 @@
-1. Make a repo with name : test_devops_django ( private ).
+1. Make a repo with name : test_devops_django ( private ) and add 'CodigoAldea' as collaborator.
 
 2. Make a django project :
     Name : projectTest
@@ -18,4 +18,9 @@ first commit msg : "March_six_2026 : first test on git, github and django, simpl
 
 Time for test : 90min
 
-    
+
+* It is an open book test, you guys can refer the resources, however you are not allowed to use any AI agent or LLM.
+
+resources : 
+    - https://git-scm.com/
+    - https://docs.djangoproject.com/en/6.0/
