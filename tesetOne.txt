@@ -1,0 +1,21 @@
+1. Make a repo with name : test_devops_django ( private ).
+
+2. Make a django project :
+    Name : projectTest
+    App-name : testApp
+    Pages : home and profile
+
+3. User will enter name, mobile, email and image on the home page.
+
+4. Save the data in the database.
+
+5. Pull the data from the database and show the data on the profile page.
+
+6. Commit the project in the repo that you have created with the commit msg :
+first commit msg : "March_six_2026 : first test on git, github and django, simple project"
+
+7. For every changes made in the project there should be a commit with comit msg related to the changes that you've done.
+
+Time for test : 90min
+
+    
