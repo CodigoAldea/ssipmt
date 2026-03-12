@@ -1,0 +1,37 @@
+1. use the same repo that you have created in the previous test.
+
+2. Make a django project :
+    Project Name: studentPortal
+    App Name: students
+    Pages: registration and studentlist
+
+3. On the Register Page, the user should be able to enter the following details:
+    Full Name
+    Email
+    College
+    Branch 
+    City
+
+    * All field will be mandatory to be filled by the user and will be stored in the data base. 
+
+4. On the Students List Page:
+    Fetch all the student records from the database.
+    Display the information
+
+5. Add a simple navigation :
+    Home → Register Page
+    Students → Students List Page
+
+6. Commit the project in the repo that you have created with the commit msg :
+first commit msg : "March_seven_2026 : first test on git, github and django, SimpleProjectTwo"
+
+
+
+Time for test : 60 min
+
+
+* It is an open book test, you guys can refer the resources, however you are not allowed to use any AI agent or LLM.
+
+resources : 
+    - https://git-scm.com/
+    - https://docs.djangoproject.com/en/6.0/

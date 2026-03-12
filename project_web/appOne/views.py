@@ -10,7 +10,9 @@ def home(request):
         # file 
         file = request.FILES.get('file')
         # print(f"Name: {name}, Mobile: {mobile}, Email: {email}")
+        
         TableOne.objects.create(name= name, mobile= mobile, email= email, file= file)
+        
         return redirect("/")
     # json -> {}
     # data_front= {
@@ -18,6 +20,11 @@ def home(request):
     #     }
     return render(request, 'home.html', {'data': user_data})
 
+
+
+def profile( request): 
+    user_data = TableOne.objects.all()
+    return render(request, 'profile.html', {'data': user_data})
 
 '''
 data = [{},{},{}]
