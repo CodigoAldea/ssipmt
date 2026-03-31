@@ -1,0 +1,43 @@
+Personal Expense Tracker
+
+Managing personal finances is an important skill, yet many individuals struggle to keep track of their daily expenses and income. Without proper tracking, it becomes difficult to understand spending patterns, manage budgets, and make informed financial decisions.
+
+The objective of this project is to develop a web-based Personal Expense Tracker using the Django web framework that allows users to record, manage, and analyze their financial transactions in a simple and efficient way.
+
+The application will allow users to register and securely log in, after which they can add details of their daily expenses and income, categorize transactions, and view summaries of their financial activities. The system will store the data in a database and provide users with insights into their spending habits through organized views and summaries.
+
+The application should ensure that each user can only access and manage their own financial records, maintaining data privacy and security through Django’s authentication system.
+
+The system will help users:
+    Track daily expenses and income
+    Categorize transactions (food, travel, bills, shopping, etc.)
+    Monitor monthly spending
+    View summaries of their financial activities
+    Maintain a personal record of financial transactions
+
+The final system should be implemented using Django, HTML, CSS, and a relational database and must demonstrate the use of Django’s core features such as models, views, templates, authentication, and database management.
+
+Functional Requirements
+The application should support the following features:
+User Management
+    User registration
+    Secure login and logout
+    User-specific data access
+Expense Management
+    Add a new expense
+    Edit an expense
+    Delete an expense
+    Categorize expenses
+Income Tracking
+    Record income sources
+    Edit or delete income entries
+Data Visualization
+    Display list of all expenses
+    Filter expenses by date or category
+    Show monthly expense summary
+    Calculate total income, expenses, and remaining balance
+
+Non-Functional Requirements
+    The system should provide a simple and intuitive interface
+    Data should be secure and user-specific
+    The application should maintain data integrity in the database
